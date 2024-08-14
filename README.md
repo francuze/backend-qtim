@@ -67,7 +67,7 @@ DB_USERNAME=postgres
 DB_PASSWORD=yourpassword
 DB_DATABASE=qtim
 
-REDIS_URL=redis://localhost:6379
+REDIS_URL=redis://redis:6379
 
 JWT_SECRET=your_jwt_secret
 ```
