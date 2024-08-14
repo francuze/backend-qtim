@@ -78,3 +78,4 @@ JWT_SECRET=test
 ## Доступ к Swagger
 Swagger доступен по адресу http://localhost:3000/api на вашем компьютере. Вы можете использовать его для тестирования API.
 
+![image](https://github.com/user-attachments/assets/e2002626-238a-4d01-a7a0-e5409749c9f8)
