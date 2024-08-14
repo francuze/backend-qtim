@@ -27,7 +27,7 @@
 1. Склонируйте этот репозиторий:
 
     ```bash
-    git clone https://github.com/francuze/qtim-backend.git
+    git clone https://github.com/francuze/backend-qtim.git
     ```
 
 2. Перейдите в директорию проекта:
