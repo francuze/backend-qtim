@@ -57,19 +57,22 @@ docker-compose up --build
 Приложение использует следующие переменные окружения, которые необходимо указать в файле .env:
 
 ```env
-Копировать код
+# Настройки приложения
 NODE_ENV=production
 PORT=3000
 
+# Настройки базы данных
 DB_HOST=localhost
 DB_PORT=5432
 DB_USERNAME=postgres
-DB_PASSWORD=yourpassword
+DB_PASSWORD=yourpassword # Убедитесь, что пароль задан
 DB_DATABASE=qtim
 
+# Настройки Redis
 REDIS_URL=redis://redis:6379
 
-JWT_SECRET=your_jwt_secret
+# Настройки JWT
+JWT_SECRET=test
 ```
 
 ## Доступ к Swagger
